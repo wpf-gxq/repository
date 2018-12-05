@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///mydb
+    username: root  
+    password: 
+  
+mybatis:
+  type-aliases-package: com.cssl.pojo
+  configuration:
+    auto-mapping-behavior: FULL
+    use-generated-keys: true
